@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<div style="position: absolute; width: 100%; border: none;">
+<div class="headclass">
+<p style="color: #fff; font-family: aileron; font-size: 50px; padding-top: 10px; text-align: center;">RISHI VERMA<sub style="font-size: 20px;">Software Engineer</sub></p>
+</div>
+
+<div>
+<div class="sidenav">
+    <div class="header">
+      <div class="pic">
+        <img src="pic.jpg" alt="">
+      </div>
+        <div class="name">Rishi Verma</div>
+        <div class="description">M-Tech CSE, NITK-Surathkal</div>
+        <div class="social-media">
+          <a href="https://www.facebook.com/rishi.verma.735" target="_blank" class="fab fa-facebook-f"></a>
+          <a href="https://twitter.com/RishiVe74252821" target="_blank" class="fab fa-twitter"></a>
+          <a href="https://www.linkedin.com/in/rishi-verma-a55a08104/" target="_blank" class="fab fa-linkedin-in"></a>
+          <a href="https://github.com/rishigopalverma/Profile" target="_blank" class="fab fa-github"></a> 
+        </div>
+    </div>
+</div>
+
+<div class="main">
+<div class="tab">
+  <button class="tablinks" onclick="openProfile(event, 'About')">ABOUT</button>
+  <button class="tablinks" onclick="openProfile(event, 'Expierence')">EXPIERENCE</button>
+  <button class="tablinks" onclick="openProfile(event, 'Projects')">PROJECTS</button>
+  <button class="tablinks" onclick="openProfile(event, 'Education')">EDUCATION</button>
+  <button class="tablinks" onclick="openProfile(event, 'skills')">SKILLS</button>
+  <button class="tablinks" onclick="openProfile(event, 'Position')">POSITIONS HELD</button>
+  <button class="tablinks" onclick="openProfile(event, 'Awards')">AWARDS & ACHIEVEMENTS</button>
+</div>
+
+<div id="About" class="tabcontent" style="display:block">
+  <h3 style="font-size: 20px;">About</h3>
+  <p style="font-size: 20px; line-height: 200%;">Successful Software Engineer with comprehensive knowledge of product development , testing and
+    product deployment process.<br> Have an year of rich expierence in lawful interception, collection and monitoring of wired data at ClearTrail Technologies Pvt Ltd indore, India.<br> Highly organised and independent. Currently pursuing M-Tech in Computer
+    Science and Engineering from National Institute of Technology Karnataka, Surathkal.</p>
+</div>
+
+<div id="Expierence" class="tabcontent">
+  <h2>ClearTrail Technologies</h2>
+  <h3>Associate Software Engineer</h3>
+  <div>
+    <div class="date-place">06/2019-06/2020</div>
+    <div class="date-place">Indore,India</div>
+  </div><br>
+  <div style="width: 100%;">
+    <div class="work-desc">
+      <ul style="line-height:180%; font-size: 20px;">
+        <li>Feature Development for the add-ons in the product.</li>
+        <li>Implemented Changes in application with goal of enhancing the performance.</li>
+        <li>Decoded network packet captured through NIC, up-to SSL Layer.</li>
+        <li>Developed utility to capture network traffic at 100GBPS.</li>
+        <li>Solved client issues and looked in client requirements.</li>
+      </ul>
+    </div>
+    <div class="work-logo">
+      <img src="worklogo.jpeg" alt="" style="opacity: 0.8; border-radius: 8px;">
+    </div>
+  </div>
+</div>
+
+<div id="Projects" class="tabcontent">
+  <div class="project-tab">
+    <button class="tab-links" onclick="openProject(event, 'shippers')">Shippers & Movers</button>
+    <button class="tab-links" onclick="openProject(event, 'traffic')">Network Traffic Decoder</button>
+    <button class="tab-links" onclick="openProject(event, 'indexing')">Indexing Engine</button>
+  </div>
+
+  <div id="shippers" class="tab-content">
+    <h2>Shippers & Movers</h2>
+  <div>
+    <div class="date-place">05/2018-06/2018</div>
+    <div class="date-place">Medicaps Institute of Technology and Management</div>
+  </div><br>
+  <div style="width: 100%;">
+      <ul style="line-height:180%; font-size: 20px;">
+        <li>A Packer and Movers Application, based on the bidding system.</li>
+        <li>Movers bids on the goods uploaded by the clients to tranfer it.</li>
+        <li>Client chooses the best bid.</li>
+      </ul>
+  </div>
+  </div>
+  
+  <div id="traffic" class="tab-content">
+    <h2>Network Traffic Decoder</h2>
+    <div>
+      <div class="date-place">02/2019-03/2019</div>
+      <div class="date-place">Medicaps Institute of Technology and Management</div>
+    </div><br>
+    <div style="width: 100%;">
+        <ul style="line-height:180%; font-size: 20px;">
+          <li>Intercepted Network traffic coming in the NIC of processor through Wireshark.</li>
+          <li>Decoded the network packet captured up-to the SSL layer.</li>
+          <li>Gathered important information like IP Addresses, Port Numbers, 
+            Various Protocols, SSL certificates.</li>
+        </ul>
+    </div>
+  </div>
+  
+  <div id="indexing" class="tab-content">
+    <h2>Indexing Engine</h2>
+    <div>
+      <div class="date-place">05/2019-06/2019</div>
+      <div class="date-place">Medicaps Institute of Technology and Management</div>
+    </div><br>
+    <div style="width: 100%;">
+        <ul style="line-height:180%; font-size: 20px;">
+          <li>Created Index of words from thousands of files at a time and saving
+            it for further analysis.</li>
+          <li>Provided support for both forward and reverse indexing.</li>
+          <li>Enabled support for view, search, sort, list down and delete files through key words.</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<div id="Education" class="tabcontent">
+  <div class="edu-tab">
+    <button class="edu-tab-links" onclick="openEdu(event, '10+2')">10+2</button>
+    <button class="edu-tab-links" onclick="openEdu(event, 'UG')">Under Graduation</button>
+    <button class="edu-tab-links" onclick="openEdu(event, 'PG')">Post Graduation</button>
+  </div>
+
+  <div id="10+2" class="edu-tab-content">
+    <h2>Shri Gujarati Samaj A.M.N.E.M School</h2>
+    <div>
+      <div class="date-place">2012-2014</div>
+      <div class="date-place">Indore,India</div>
+    </div><br>
+    <div style="width: 100%;">
+      <div class="work-desc">
+        <ul style="line-height:180%; font-size: 20px;">
+          <li><b>Board:</b> CBSE.</li>
+          <li><b>Grade:</b> 83.8%.</li>
+          <li><b>Specialization:</b> Mathematics.</li>
+          <li><b>Subjects:</b> Physics, Chemistry, Mathematics.</li>
+        </ul>
+      </div>
+      <div class="work-logo">
+        <img src="school.png" alt="" style="opacity: 0.8; border-radius: 8px;">
+      </div>
+    </div>
+  </div>
+  
+  <div id="UG" class="edu-tab-content">
+    <h2>Medicaps Institute of Technology and Management</h2>
+    <div>
+      <div class="date-place">2015-2019</div>
+      <div class="date-place">Indore,India</div>
+    </div><br>
+    <div style="width: 100%;">
+      <div class="work-desc">
+        <ul style="line-height:180%; font-size: 20px;">
+          <li><b>Affiliation:</b> RGPV.</li>
+          <li><b>Grade:</b> 8.04.</li>
+          <li><b>Specialization:</b> Computer Science</li>
+          <li><b>Subjects:</b> Data Structures & Algorithms, Computer Networks, 
+            Operating System.</li>
+        </ul>
+      </div>
+      <div class="work-logo">
+        <img src="college.jpg" alt="" style="opacity: 0.8; border-radius: 8px;">
+      </div>
+    </div>
+  </div>
+  
+  <div id="PG" class="edu-tab-content">
+    <h2>National Institute of Technology Karnataka, Surathkal</h2>
+    <div>
+      <div class="date-place">2020-2022</div>
+      <div class="date-place">Manglore,India</div>
+    </div><br>
+    <div style="width: 100%;">
+      <div class="work-desc">
+        <ul style="line-height:180%; font-size: 20px;">
+          <li><b>Grade:</b> Currently running.</li>
+          <li><b>Specialization:</b> Computer Science.</li>
+          <li><b>Subjects:</b> High Performance Computing, Advanced Algorithms.</li>
+        </ul>
+      </div>
+      <div class="work-logo">
+        <img src="logo.jpeg" alt="" style="opacity: 0.8; border-radius: 8px; height: 6cm; width: 6cm;">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div id="skills" class="tabcontent">
+  <div class="skill1">
+    <p style="font-size: 25px;"><b>Programing</b></p>
+  </div>
+  <div class="skill2">
+    <p style="font-size: 25px;"><b>Technology</b></p>
+  </div>
+
+  <div class="skillsr">
+    <div class="skillsc">
+      <ul class="ul">
+        <li><b>C/C++</b></li><br><li><b>PHP</b></li><br><li><b>HTML/CSS</b></li>
+      </ul>
+    </div>
+    <div class="skillsc">
+      <ul class="ul">
+        <li><b>JAVA</b></li><br><li><b>Python</b></li><br><li><b>JavaScript</b></li>
+      </ul>
+    </div>
+    <div class="skillsc">
+      <ul class="ul">
+        <li><b>LaTex</b></li><br><li><b>Wireshark</b></li><br><li><b>Visual Studio</b></li>
+      </ul>
+    </div>
+    <div class="skillsc">
+      <ul class="ul">
+        <li><b>Linux</b></li><br><li><b>Vim</b></li><br><li><b>Git/Github</b></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div id="Position" class="tabcontent">
+  <p style="font-size: 25px;"><b>AIESEC</b></p>
+  <div>
+    <div class="date-place">11/2015-10/2016</div>
+    <div class="date-place">Indore,India</div>
+  </div><br>
+  <p style="font-size: 20px; line-height: 200%;">AIESEC is the worlds largest youth run organization. 
+    I got an opportunity to work at this elite organization, for various positions and portfolios. 
+    I was an Exchange Controller under the department of 'Incoming Global Exchange' and facilitated cross-cultural exchanges for Indore Local Committee.</p>
+
+  <p style="font-size: 25px;"><b>Rang Dey Zindagi</b></p> 
+  <div>
+    <div class="date-place">11/2015-10/2016</div>
+    <div class="date-place">Indore,India</div>
+  </div><br>
+  <p style="font-size: 20px; line-height: 200%;">This organization taught underprivileged kids and i worked as a mentor for the same purpose.</p>
+</div>
+
+<div id="Awards" class="tabcontent">
+  <h2>Awards & Achievements</h2>
+  <ul style="line-height: 180%; font-size: 20px;">
+    <li>Solved over 100+ questions across various
+      programming platforms.</li>
+    <li>Secured 98.26 percentile in GATE 2019.</li>
+    <li>Organised various events in college.</li>
+  </ul>
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="particles-js"></div>
+<script src="particles.js"></script>  
+<script src="app.js"></script>
+
+<script>
+function openProfile(evt, profileName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(profileName).style.display = "block";
+  evt.currentTarget.className += " active";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+
+function openProject(evt, projectName) {
+  var i, tab_content, tab_links;
+  tab_content = document.getElementsByClassName("tab-content");
+
+  for (i = 0; i < tab_content.length; i++) {
+    tab_content[i].style.display = "none";
+  }
+  tab_links = document.getElementsByClassName("tab-links");
+  for (i = 0; i < tab_links.length; i++) {
+    tab_links[i].className = tab_links[i].className.replace(" active", "");
+  }
+  document.getElementById(projectName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+function openEdu(evt, eduName) {
+  var i, edu_tab_content, edu_tab_links;
+  edu_tab_content = document.getElementsByClassName("edu-tab-content");
+
+  for (i = 0; i < edu_tab_content.length; i++) {
+    edu_tab_content[i].style.display = "none";
+  }
+  edu_tab_links = document.getElementsByClassName("edu-tab-links");
+  for (i = 0; i < edu_tab_links.length; i++) {
+    edu_tab_links[i].className = edu_tab_links[i].className.replace(" active", "");
+  }
+  document.getElementById(eduName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+</body>
+</html> 
+
